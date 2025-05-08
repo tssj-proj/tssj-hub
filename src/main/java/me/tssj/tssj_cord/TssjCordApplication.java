@@ -9,5 +9,4 @@ public class TssjCordApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TssjCordApplication.class, args);
 	}
-
 }
