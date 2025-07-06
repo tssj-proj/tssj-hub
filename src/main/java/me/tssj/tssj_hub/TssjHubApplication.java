@@ -1,12 +1,12 @@
-package me.tssj.tssj_cord;
+package me.tssj.tssj_hub;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TssjCordApplication {
+public class TssjHubApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TssjCordApplication.class, args);
+		SpringApplication.run(TssjHubApplication.class, args);
 	}
 }
