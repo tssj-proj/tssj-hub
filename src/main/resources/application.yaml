@@ -43,6 +43,7 @@ spring:
     url: jdbc:oracle:thin:@tssjdb_medium?TNS_ADMIN=${DB_WALLET_PATH}
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
+    driver-class-name: oracle.jdbc.OracleDriver
 
   jpa:
     hibernate:
